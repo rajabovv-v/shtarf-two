@@ -1,0 +1,126 @@
+.footer{
+
+
+    &_row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 140px;
+    }
+    &_blok1{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+
+
+
+        &_h1{
+            color: #181E4B;
+            font-family: 'Poppins', sans-serif;
+            font-size: 44px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        &_p{
+            color: #5E6282;
+            font-family: 'Poppins' , sans-serif;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%; 
+        }
+    }
+    &_blok2{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+        &_p1{
+            color: #080809;
+            font-family: 'Poppins', sans-serif;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 124.5%; 
+        }
+        &_p2{
+            color:#5E6282;
+            font-family: 'Poppins' , sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%; 
+
+            &:hover{
+                color: black;
+            }
+        }
+    }
+    &_blok3{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    &_blok4{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+    &_blok5{
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        
+        
+
+
+        &_p{
+            color: #5E6282;
+            font-family: 'Poppins' ,  sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 124.5%;
+            letter-spacing: 0.1px;
+            text-align: center;
+        }
+        &_btn1{
+            width: 107px;
+            height: 35px;
+            flex-shrink: 0;
+            border-radius: 17.5px;
+            background: #080809;
+            text-align: center;
+        }
+        
+        &_button{
+            display: flex;
+            align-items: center;
+            gap: 7px;
+
+        }
+    }
+     
+
+
+
+
+
+    &_text1{
+
+       &_p{
+        color: #5E6282;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 124.5%;
+        text-align: center;
+        margin-top: 90px;
+        }
+    }
+
+
+
+}

@@ -1,0 +1,50 @@
+.mike{
+   
+
+    &_row{
+        display: flex;
+        justify-content: space-between;
+
+        @media screen and (max-width:905px) {
+            display: flex;
+            flex-direction: column;
+        }
+        
+
+    }
+    &_text{
+
+        @media screen and (max-width:905px) {
+            order: 1;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             
+            svg{
+                display: none;
+            }
+        }
+        
+
+
+        &_p{
+            color: #5E6282;
+            font-family: 'Poppins' ,  sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        &_h1{
+            color:  #14183E;
+            font-family: 'Volkhov', sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+}

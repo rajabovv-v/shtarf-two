@@ -1,0 +1,78 @@
+.best{
+
+    &_row{
+         margin-top: 40px;
+    }
+
+    &_text{
+        margin-top: 50px;
+
+
+        &_p{
+            color:#5E6282;
+            text-align: center;
+            font-family: 'Poppins' , sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        &_h1{
+            color: #14183E;
+            text-align: center;
+            font-family: 'Volkhov' , sans-serif;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+    &_content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        
+
+        &_block1{
+            margin-top: 30px;
+            width: 267px;
+            height: 314px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0 44px 20px 44px;
+            transition: all 0.3s ease-in-out;
+            border-radius: 36px;
+
+
+            &:hover{
+                box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+            }
+            
+            &_p{
+                color: #1E1D4C;
+                text-align: center;
+                font-family: Open 'Sans' , sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            &_p2{
+                color:#5E6282;
+                text-align: center;
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height:162.5% ;
+            }
+        }
+    }
+}

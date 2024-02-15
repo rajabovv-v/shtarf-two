@@ -1,0 +1,109 @@
+.header{
+  padding: 25px 15px;
+
+
+
+    &_row{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+    &_nav{
+          display: flex;
+          gap: 55px;
+          @media screen and (max-width:905px ) {
+            display: none;
+          }
+         
+    }
+    &_link{
+        color:#212832;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: 'Google Sans', sans-serif;
+        transition: all 0.2s ease-in-out;
+    
+        &:hover{
+          color:rgb(217, 151, 8);
+        }
+      }
+      &-link:not(:last-child){
+        margin-right: 20px;
+      }
+
+      &_login{
+        display: flex;
+        align-items: center;
+        gap: 55px;
+
+
+        &_log{
+            color:  #212832;
+            font-family:'Google Sans', sans-serif;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            &:hover{
+              color:rgb(217, 151, 8);
+
+            }
+        }
+        &_btn{
+            width: 102px;
+            height: 40px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: 1px solid  #212832;
+            color: var(--1st, #212832);
+            font-family: Google Sans;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            &:hover{
+              color:rgb(217, 151, 8);
+              border-color:rgb(217, 151, 8) ;
+
+            }
+        }
+
+        &_span{
+            color: #212832;
+            font-family: 'Google Sans', sans-serif;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+
+            &:hover{
+              color:rgb(217, 151, 8);
+            }
+            &:hover path {
+                stroke:rgb(217, 151, 8) ;
+            }
+
+            &_btn{
+              display: none;
+
+              @media screen and (max-width:905px) {
+                display: block;
+                
+              }
+            }
+
+        }
+      }
+
+      &_img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+      }
+      
+}
